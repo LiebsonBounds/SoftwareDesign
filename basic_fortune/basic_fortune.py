@@ -18,7 +18,7 @@ def fortune():
    length of the name or string that a user inputs.
    """
    username = raw_input('what is your name?')
-   fortuner = ['you will soon get a big surprise', 'happiness will soon find you', 'things are looking up', 'a wish that you made in the past is about to come true', 'you will be greeted with a gift in the near future', 'the sky will fall on you tomorrow']
+   fortuner = ['Your spirit animal now and forever is a puggle', 'Your spirit animal now and forever is a fork', 'Your spirit animal now and forever is a platypus', 'Your spirit animal now and forever are the New York Jets', 'Your spirit animal now and forever is an onion', 'Your spirit animal now and forever is Adele']
    print fortuner[(len(username)-1)%len(fortuner)]
 
 fortune()
