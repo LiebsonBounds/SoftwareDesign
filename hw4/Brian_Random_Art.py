@@ -108,11 +108,7 @@ for x in range(0, 349):
         img.putpixel((x, y), (int(redder), int(greener), int(bluer)))
         
 #Saving the image!
-img.save("prettypictures.png", 'PNG')
-
-
-
-
+img.save("prettypictures.BMP", 'BMP')
 
 
 
